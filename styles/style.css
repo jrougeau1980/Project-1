@@ -2,3 +2,15 @@ body {
     color: blue;
     background-color: beige;
 }
+/* Basic stlyes */
+html {
+    font-size: 20px;
+}
+
+
+body {
+    min-width: 400px;
+}
+
+
+/* Phone models section */
