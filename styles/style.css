@@ -1,6 +1,6 @@
 body {
-    color: blue;
-    background-color: beige;
+    color: whitesmoke;
+    background-color:gray
 }
 /* Basic stlyes */
 html {
@@ -26,21 +26,28 @@ body {
 }
 
 .phone-img{
-    max-width: 30%;
-}
+    border-radius: 25px;
+    max-width: 100px;
+    display: flex 
+    justify-content: center;
+    flex-wrap: wrap;
+
+
 /* tagline section */
 .tagline-container {
     text-align: center;
     margin:  6rem auto;
+    
     /* features */
 .features-container {
-    display: flex;
+   display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+ 
 .feature-box {
     border: 2px solid black;
-    padding: 2rem;
+    padding: 6rem;
     margin: 2rem;
     width: calc(90% - 10rem);
     text-align: center;
@@ -60,4 +67,18 @@ body {
         width: calc(50% - 10rem);
     }
 }
+/* Footer*/
+.footer-link-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 4rem auto;
+}
+
+/* Call-to-action-banner */
+.call-to-action-container {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
