@@ -14,7 +14,7 @@ body {
 
 
 /* Phone models section */
-.phone-models-container {
+.phone-model-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -23,6 +23,10 @@ body {
 
 .phone-model {
     margin: 1rem 2rem;
+}
+
+.phone-img{
+    max-width: 30%;
 }
 /* tagline section */
 .tagline-container {
@@ -34,8 +38,6 @@ body {
     flex-wrap: wrap;
     justify-content: center;
 }
-
-
 .feature-box {
     border: 2px solid black;
     padding: 2rem;
@@ -46,19 +48,13 @@ body {
     min-width: 200px;
     border-radius: 35px;
 }
-
-
 .feature-box:hover {
     background-color: lightgrey;
 }
-
-
 .feature-image {
     width: 80%;
     max-width: 200px;
 }
-
-
 @media screen and (min-width: 768px) {
     .feature-box {
         width: calc(50% - 10rem);
