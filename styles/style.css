@@ -31,12 +31,14 @@ body {
     display: flex 
     justify-content: center;
     flex-wrap: wrap;
-
+}
 
 /* tagline section */
-.tagline-container {
+.tagline-container{
+    display: flex;
     text-align: center;
     margin:  6rem auto;
+}
     
     /* features */
 .features-container {
